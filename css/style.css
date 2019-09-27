@@ -1,0 +1,61 @@
+:root {
+
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+p {
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    padding: 1em;
+}
+
+main {
+
+}
+
+header {
+
+}
+
+article div{
+    background-color: #333;
+    color: #eee;
+    padding: 1em
+}
+
+article{
+    display: grid;
+    grid-gap: .25em;
+    grid-template-areas: 
+    "wall wall wall "
+    "feat1 blog1 blog1"
+    "feat2 blog2 blog2"
+    "feat3 blog3 blog3";
+}
+
+.feat1{grid-area: feat1;}
+.feat2{grid-area: feat2;}
+.feat3{grid-area: feat3;}
+.wall{grid-area: wall;}
+.blog1{grid-area: blog1;}
+.blog2{grid-area: blog2;}
+.blog3{grid-area: blog3;}
