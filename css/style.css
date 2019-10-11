@@ -4,10 +4,16 @@ body {
 
 h1 {
     font-family: 'Russo One', sans-serif;
+    color: #111;
+    text-shadow: 2px 2px #ccc;
+    font-size: 86px;
 }
 
 h2 {
-    
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #ccc;
+    text-shadow: 2px 2px #111;
+    font-size: 36px;
 }
 
 h3{
@@ -15,18 +21,19 @@ h3{
 }
 
 p {
-
+    font-family: sans-serif;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: yellow;
+    background-color: #ffc0af;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 nav a {
-    padding: 1em;
+    padding: .1em;
 }
 
 main {
@@ -36,13 +43,12 @@ main {
 header {
     grid-area: head;
     display: grid;
-    grid-template-columns: 2fr 1fr;
     grid-gap: 1em;
     justify-items: center;
     align-items: center;
-    padding: 2em;
-    margin-bottom: 2em;
-    background-color: #9f4301;
+    padding: .5em;
+    margin-bottom: .1em;
+    text-align: center;
 }
 
 article div{
@@ -73,3 +79,10 @@ article{
 .blog1{grid-area: blog1;}
 .blog2{grid-area: blog2;}
 .blog3{grid-area: blog3;}
+
+
+footer{
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: #ffc0af;
+    text-align: center;
+}
