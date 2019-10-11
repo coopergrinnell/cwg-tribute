@@ -3,11 +3,15 @@ body {
 }
 
 h1 {
-
+    font-family: 'Russo One', sans-serif;
 }
 
 h2 {
+    
+}
 
+h3{
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 p {
@@ -46,19 +50,14 @@ article div{
     color: #eee;
     padding: 1em;
 }
-/*--
-banner{
-    display: flex;
-    background-image: url("../img/isaac_wide_banner.png");
-    background-repeat: no-repeat;
-    width: 1920px;
-    padding: 300px;
-    justify-content: center;
+
+.title-stack{
+
 }
---*/
+
 article{
     display: grid;
-    grid-gap: .25em;
+    grid-gap: 1em;
     grid-template-areas: 
     "banner banner banner"
     "feat1 blog1 blog1"
